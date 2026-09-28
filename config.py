@@ -1,0 +1,5 @@
+KEY = b"secret68"
+HOST = "70.153.18.196"
+PORT = 8000
+MODE = "EBC"
+ENCRYPTION_ENABLED = True
