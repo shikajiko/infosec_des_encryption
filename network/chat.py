@@ -22,7 +22,7 @@ def _receiver(sock, name):
         if data is None:
             print(f"[{name}] connection closed")
             break
-        print(f"[{name}] received (hex): {data.hex}")
+        print(f"[{name}] received (hex): {data.hex()}")
         if config.ENCRYPTION_ENABLED:
             data = decrypt(data, config.KEY, config.MODE)
         print(f'[{name}] plaintext: {data.decode(errors='replace')}')
