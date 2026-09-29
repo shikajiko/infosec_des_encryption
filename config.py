@@ -1,4 +1,4 @@
-KEY = b"secret68"
+KEY = b"RAHASIA1234"
 HOST = "70.153.18.196"
 PORT = 8000
 MODE = "ECB" 
